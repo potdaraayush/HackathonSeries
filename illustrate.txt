@@ -1,0 +1,6 @@
+// Frontend sends -> Backend receives -> Database stores -> Response back
+// Example: User logs in
+// 1️⃣ Frontend sends login info
+// 2️⃣ Backend checks credentials
+// 3️⃣ Database confirms user
+// 4️⃣ Backend sends success ✅
