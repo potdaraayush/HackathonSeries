@@ -5,7 +5,7 @@ const app = express();
 const PORT = 5000;
 
 app.use(cors({
-  origin: 'http://localhost:5173', // Only allows vite frontend URL
+  origin: 'https://hackathon-series.vercel.app', // Only allows vite frontend URL
   methods: ["GET", "POST"], // Optional: Restrict allowed methods
   credentials: true         // Optional: Allow cookies/auth if needed
 }));
