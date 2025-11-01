@@ -1,1 +1,1 @@
-{"name":"hackathon-series","type":"module","dependencies":{"cors":"^2.8.5","express":"^5.1.0"}}
+{"name":"hackathon-series","type":"module","dependencies":{"cors":"^2.8.5","express":"^5.1.0"}, "scripts": {"start":"node server.js"}}
