@@ -6,7 +6,7 @@ function App() {
 
   const handleClick = async () => {
     try {
-      const res = await fetch('https://coral-app-jqhyw.ondigitalocean.app/api/message');
+      const res = await fetch('http://localhost:5000/api/message');
       const data = await res.json();
       setMessage(data.message);
     } catch (error) {
